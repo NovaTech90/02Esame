@@ -1,0 +1,28 @@
+#about {
+    .container-about {
+        @include flex (center, space-around); gap: 30px;
+        img {
+            @include boxShadow();
+            width: 420px; border-radius: 5px;
+        }
+        .about-text {
+            width: 600px;
+            h1 {
+                @include text($largeText, 700, 3px); margin-bottom: 20px;
+            }
+            h5 {
+                @include text($smallText, 500, 3px); margin-bottom: 25px;
+                span {
+                    color: var(--primary-color);
+                }
+            }
+            p {
+                @include text($xsmallText, 400, 2px); line-height: 25px; margin-bottom: 30px; text-align: justify;
+            }
+            .btn {
+                @include button();
+            }
+        }
+    }
+}
+

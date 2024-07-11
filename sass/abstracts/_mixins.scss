@@ -1,0 +1,88 @@
+@mixin flex($align, $justify) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+@mixin boxShadow() {
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.5);
+}
+
+// TRANSITION 
+// EXEMPLE
+//transition-timing-function: linear;
+//transition-delay: 1s;
+@mixin transition($timingFunction, $delay) {
+    transition: $timingFunction $delay;
+}
+
+//TEXT STYLES
+@mixin text ($size, $weight, $spacing,) {
+    font-size: $size;
+    font-weight: $weight;
+    letter-spacing: $spacing;
+}
+
+//LINK STYLES
+@mixin linkBase() {
+    color: var(--text-color);
+    text-decoration: none;
+    list-style: none;
+    @include transition(linear, 0.5s);
+    cursor: pointer;
+}
+@mixin linkMenu() {
+    @include text($smallText, 400, 2px);
+    @include linkBase();
+    &:hover {
+        color: var(--hover-color);
+        &::before {
+            width: 100%;
+        }
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: -7px;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: var(--primary-color);
+        @include transition(linear, .5s);
+    }
+
+}
+
+// BUTTON STYLES
+@mixin buttonBASE ($bgColor) {
+    outline: none;
+    border: none;
+    background: $bgColor;
+    @include transition(ease-in, .5s);
+    cursor: pointer;
+}
+@mixin buttonCTA () {
+    @include text(20px, 500, 1.5px);
+    @include buttonBASE(transparent);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--primary-color);
+
+    &:hover {
+        letter-spacing: 4px;
+        color: var(--text-color);
+    }
+}
+@mixin button () {
+    @include buttonBASE(var(--primary-color));
+    @include text($smallText, 600, 2.5px);
+    color: var(--text-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 15px;
+    padding: 10px 25px;
+
+    &:hover {
+        background: transparent;
+        color: var(--primary-color);
+        letter-spacing: 4px;
+    }
+}

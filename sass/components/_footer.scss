@@ -1,0 +1,23 @@
+footer {
+    width: 100vw; height: 80px; place-items: center; display: grid; background-color: var(--bg-color-variant);
+    .container {
+        @include flex(center, space-between);
+        p {
+            @include text($xsmallText, 400, 2px);
+        }
+        .social-links {
+           text-align: center;
+            a {
+                color: var(--text-color);
+                &:hover {
+                    .fa-facebook {color: var(--facebook-color);}
+                    .fa-linkedin {color: var(--linkedin-color);}
+                    .fa-github {color: var(--github-color);}
+                }
+                i {
+                    font-size: 30px; margin: 20px;
+                }
+            }
+        }
+    }
+}

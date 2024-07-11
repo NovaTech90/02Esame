@@ -1,0 +1,22 @@
+header {
+    .hamburger-menu {
+        @include flex(center, space-between); flex-wrap: nowrap;
+        position: fixed; padding: 0 8%; width: 100%; height: 90px; z-index: 10;
+        #controllo {display: none;}
+        .logo {width: 90px;}
+        ul {
+            list-style: none; margin: 0; padding: 0;
+            li {
+                display: inline; margin-right: 40px; position: relative;
+                a {
+                    @include linkMenu();
+                    
+                }
+                .btnCTA {
+                    @include buttonCTA();
+                }
+            }
+        }
+    }
+}
+

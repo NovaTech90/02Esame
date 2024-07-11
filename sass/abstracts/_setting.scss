@@ -1,0 +1,31 @@
+// GOOGLE FONTS
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+// ROOT CSS
+:root {
+    --primary-color: #008080;
+    --text-color: #ffffff;
+    --bg-color: #474747;
+    --bg-color-variant: #333;
+
+    //LINK COLOR
+    --hover-color: #7e7e7e;
+
+    //SOCIAL COLORS
+    --facebook-color: #1877F2;
+    --linkedin-color: #0A66C2;
+    --github-color: #2a2a2a;
+}
+
+// SETTING CSS HTML
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+// DIMENSIONS CONTAINERS
+$container-lg: 82%;
+$container-md: 90%;
+
+//TIPOGRAPHY
+$xsmallText: 16px;
+$smallText: 18px;
+$mediumText: 30px;
+$largeText: 70px;

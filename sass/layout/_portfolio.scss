@@ -1,0 +1,41 @@
+#portfolio {
+    .container {
+        h1 {
+            @include text($largeText, 700, 3px);
+            text-align: center; margin-bottom: 50px;
+        }
+        .main {
+            .cards-box {
+                display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 2fr)); grid-gap: 40px;
+                .card {
+                    border-radius: 10px; position: relative; overflow: hidden;
+                    @include boxShadow();
+                    img {
+                        width: 100%; border-radius: 10px; display: block; transition: transform 0.5s;
+                    }
+                    .overlay {
+                        @include flex(center, center);
+                        height: 0; width: 100%; background: linear-gradient(transparent, #1c1c1c 58%); border-radius: 10px;
+                        position: absolute; left: 0; bottom: 0; overflow: hidden; flex-direction: column;
+                        padding: 0 40px; text-align: center; font-size: 14px; transition: height 0.5s;
+                        h3 {
+                            @include text($mediumText, 500, 2px);
+                            margin-bottom: 5px; margin-top: 15%; 
+                        }
+                        p {
+                            margin-bottom: 10px;
+                        }
+                        .btn {
+                            @include button();
+                            a {
+                                text-decoration: none; color: var(--text-color);
+                            }
+                        }
+                    }
+                    &:hover img {transform: scale(1.2);}
+                    &:hover .overlay {height: 100%;}
+                }
+            }
+        }
+    }
+}
