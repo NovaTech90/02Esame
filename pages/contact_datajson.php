@@ -1,4 +1,6 @@
 <?php
+
+//Metodo per salvare i dati del form in un JSON file
 require('../form/form.php');
 $response = null;
 if (isset($_POST['submit'])) {
@@ -48,11 +50,11 @@ include('../modules/head.php');
                 <form action="" method="post"> <!-- Form funzionante che salva i messaggi in un file JSON -->
                     <h2>Send Message</h2>
                     <div class="inputForm">
-                        <input type="text" id="name" name="name" value="<?php echo @$_POST['name'] ?>">
+                        <input type="text" id="name" name="name" value="<?php echo @$_POST['name'] ?>" required>
                         <label>Your Name</label>
                     </div>
                     <div class="inputForm">
-                        <input type="email" id="email" name="email" value="<?php echo @$_POST['email'] ?>">
+                        <input type="email" id="email" name="email" value="<?php echo @$_POST['email'] ?>" required>
                         <label>Your Email</label>
                     </div>
                     <div class="inputForm">

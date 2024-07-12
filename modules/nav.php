@@ -8,7 +8,7 @@
             <li><a class="vociMenu" href="../pages/index.php" <?php if ($activePage === "index.php") { ?> class="activeLink" <?php } ?>>Home</a></li>
             <li><a class="vociMenu" href="../pages/about.php" <?php if ($activePage === "about.php") { ?> class="activeLink" <?php } ?>>About Me</a></li>
             <li><a class="vociMenu" href="../pages/portfolio.php" <?php if ($activePage === "portfolio.php") { ?> class="activeLink" <?php } ?>>Portfolio</a></li>
-            <li><a href="../pages/contact.php" class="btnCTA">Contact Me</a></li>
+            <li><a href="../pages/contact_datatxt.php" class="btnCTA">Contact Me</a></li>
         </ul>
     </nav>
 </header>
