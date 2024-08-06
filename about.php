@@ -1,16 +1,16 @@
 <?php
-include('../modules/head.php');
+include('./modules/head.php');
 ?>
 
 <body>
 
     <?php
-    include('../modules/nav.php');
+    include('./modules/nav.php');
     ?>
 
     <section id="about">
         <div class="container container-about">
-            <img src="../img/about.jpg" alt="" class="about-img">
+            <img src="./img/about.jpg" alt="" class="about-img">
             <div class="about-text">
                 <h1>About Me</h1>
                 <h5>Developer & <span>Designer</span></h5>
@@ -25,6 +25,6 @@ include('../modules/head.php');
         </div>
     </section>
     <?php
-    include('../modules/footer.php');
+    include('./modules/footer.php');
     ?>
 </body>

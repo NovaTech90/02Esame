@@ -27,9 +27,7 @@
                         }
                         .btn {
                             @include button();
-                            a {
-                                text-decoration: none; color: var(--text-color);
-                            }
+                            text-decoration: none; color: var(--text-color);
                         }
                     }
                     &:hover img {transform: scale(1.2);}

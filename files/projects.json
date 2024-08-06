@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "image": "./img/card.jpg",
+        "title": "Project 1",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
+    },
+    {
+        "id" : 2,
+        "image": "./../img/card.jpg",
+        "title": "Project 2",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
+    },
+    {
+        "id" : 3,
+        "image": "./../img/card.jpg",
+        "title": "Project 3",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
+    },
+    {
+       "id" : 4,
+        "image": "./../img/card.jpg",
+        "title": "Project 4",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
+    },
+    {
+        "id" : 5,
+        "image": "./../img/card.jpg",
+        "title": "Project 5",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
+    },
+    {
+        "id" : 6,
+        "image": "./../img/card.jpg",
+        "title": "Project 6",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
+    }
+]

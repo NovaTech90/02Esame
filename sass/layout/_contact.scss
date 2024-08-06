@@ -1,62 +1,106 @@
 #contact {
-    @include flex(center, center); flex-direction: column;
+    @include flex(center, center);
+    flex-direction: column;
     position: relative;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/sfondo_home.jpg); 
-    background-position: center; background-repeat: no-repeat; background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/sfondo_home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     .contactContent {
-        max-width: 800px; text-align: center;
+        max-width: 800px;
+        text-align: center;
+
         h1 {
             @include text($largeText, 700, 3px);
             margin-bottom: 50px;
         }
     }
+
     .container-contact {
         @include flex(center, center);
+
         .contactInfo {
-            width: 50%; display: flex; flex-direction: column;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
             .box {
-                position: relative; padding: 20px 0; display: flex;
-                .icon  {
+                position: relative;
+                padding: 20px 0;
+                display: flex;
+
+                .icon {
                     @include flex(center, center);
-                    min-width: 60px; height: 60px; border-radius: 50%; font-size: 22px;
+                    min-width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    font-size: 22px;
                 }
+
                 .text {
-                    display: flex; margin-left: 20px; flex-direction: column;
+                    display: flex;
+                    margin-left: 20px;
+                    flex-direction: column;
+
                     h3 {
                         @include text($smallText, 500, 2px);
-                        color: var(--primary-color); margin-bottom: 5px;
+                        color: var(--primary-color);
+                        margin-bottom: 5px;
                     }
+
                     p {
                         @include text($xsmallText, 400, 2px);
                     }
                 }
             }
         }
+
         .contactForm {
-            width: 40%; padding: 40px; background: transparent; border: 2px solid rgba(255, 255, 255, .2);
-            backdrop-filter: blur(20px); box-shadow: 0 0 10px rgba(0, 0, 0, .2); border-radius: 5px;
+            width: 40%;
+            padding: 40px;
+            background: transparent;
+            border: 2px solid rgba(255, 255, 255, .2);
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+            border-radius: 5px;
+
             form {
-                h2 {
+                position: relative;
+
+                h2{
                     @include text($mediumText, 500, 2px);
                     color: var(--text-color);
                 }
-                .inputForm {
-                    position: relative; width: 100%; margin-top: 10px;
-                    input, textarea {
-                        width: 100%; padding: 10px 0; font-size: 18px; margin: 10px 0; border: none; border-bottom: 2px solid var(--bg-color);
-                        outline: none; background: transparent; resize: none;
-                    }
-                    label {
-                        position: absolute; left: 0; padding: 5px 0; font-size: 16px; margin: 10px 0; pointer-events: none; transition: .5s; 
-                        color: #8a8a8a;
-                    }
-                    input:focus ~ label,
-                    input:valid ~ label,
-                    textarea:focus ~ label,
-                    textarea:valid ~ label {color: var(--primary-color); font-size: 12px; transform: translateY(-20px);}
-                    input[type="submit"] {
-                        width: 100px; background: var(--primary-color); color: var(--text-color); border: none; cursor: pointer; padding: 10px;
-                    }
+                input[type="text"], input[type="email"], textarea {
+                    width: 100%;
+                    padding: 10px 0;
+                    font-size: 18px;
+                    margin: 10px 0;
+                    border: none;
+                    border-bottom: 2px solid var(--bg-color);
+                    outline: none;
+                    background: transparent;
+                    resize: none;
+                }
+                label {
+                    position: absolute;
+                    left: 0;
+                    padding: 5px 0;
+                    margin: 10px 0;
+                    font-size: 16px;
+                    pointer-events: none;
+                    transition: .5s;
+                    color: #8a8a8a;
+                }
+
+                button {
+                    width: 100px;
+                        background: var(--primary-color);
+                        color: var(--text-color);
+                        border: none;
+                        cursor: pointer;
+                        padding: 10px;
                 }
             }
         }
