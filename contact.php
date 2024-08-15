@@ -41,7 +41,6 @@ if ($inviato) {
     }
 
     $inviato = ($valido == 0) ? true : false;
-    
 } else {
     $nome = "";
     $email = "";
@@ -90,22 +89,24 @@ include('./modules/head.php');
             </div>
             <div class="contactForm">
                 <?php
-               if (!$inviato) {
+                if (!$inviato) {
                 ?>
                     <form action="contact.php?inviato=1" method="post" autocomplete="no" novalidate>
                         <h2>Send Message</h2>
 
-                        <label for="nome" <?php echo $erroreNome; ?>>Nome <span>*</span></label>
-                        <input type="text" id="nome" name="nome" required value="<?php echo $nome; ?>">
-
-                        <label for="email" <?php echo $erroreEmail; ?>>Email <span>*</span></label>
-                        <input type="email" id="email" name="email" required value="<?php echo $email; ?>">
-
-                        <label for="messaggio" <?php echo $erroreMessaggio; ?>>Messaggio <span>*</span></label>
-                        <textarea name="messaggio" id="messaggio" required><?php echo $messaggio; ?></textarea>
-
+                        <div class="input-form">
+                            <label for="nome" <?php echo $erroreNome; ?>>Nome</label>
+                            <input type="text" id="nome" name="nome" required value="<?php echo $nome; ?>">
+                        </div>
+                        <div class="input-form">
+                            <label for="email" <?php echo $erroreEmail; ?>>Email</label>
+                            <input type="email" id="email" name="email" required value="<?php echo $email; ?>">
+                        </div>
+                        <div class="input-form">
+                            <label for="messaggio" <?php echo $erroreMessaggio; ?>>Messaggio</label>
+                            <textarea name="messaggio" id="messaggio" required><?php echo $messaggio; ?></textarea>
+                        </div>
                         <button type="submit">Send</button>
-
                     </form>
                 <?php
                 } else {
@@ -116,7 +117,7 @@ include('./modules/head.php');
 
                     $file = fopen("./files/data_form.txt", "a");
 
-                    fwrite($file, "name: ");
+                    fwrite($file, "nome: ");
                     fwrite($file, $nome . "\n");
                     fwrite($file, "email: ");
                     fwrite($file, $email . "\n");
@@ -124,7 +125,7 @@ include('./modules/head.php');
                     fwrite($file, $messaggio . "\n");
                     fclose($file);
 
-                    echo '<p class="success;">Grazie per avermi contattato</p>';
+                    echo '<p class="success;" style="color: teal; font-size: 16px; letter-spacing: 1px; font-weight: 600;">Grazie per avermi contattato</p>';
                 }
                 ?>
             </div>

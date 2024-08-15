@@ -1,38 +1,38 @@
 [
     {
         "id" : 1,
-        "image": "./img/card.jpg",
-        "title": "Project 1",
+        "name": "Project 1",
+        "image": "./img/card.jpg",        
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
     },
     {
         "id" : 2,
-        "image": "./../img/card.jpg",
-        "title": "Project 2",
+        "name": "Project 2",
+        "image": "./img/card.jpg",        
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
     },
     {
         "id" : 3,
-        "image": "./../img/card.jpg",
-        "title": "Project 3",
+        "name": "Project 3",
+        "image": "./img/card.jpg",        
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
     },
     {
        "id" : 4,
-        "image": "./../img/card.jpg",
-        "title": "Project 4",
+       "name": "Project 4",
+        "image": "./img/card.jpg",        
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
     },
     {
         "id" : 5,
-        "image": "./../img/card.jpg",
-        "title": "Project 5",
+        "name": "Project 5",
+        "image": "./img/card.jpg",        
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
     },
     {
         "id" : 6,
-        "image": "./../img/card.jpg",
-        "title": "Project 6",
+        "name": "Project 6",
+        "image": "./img/card.jpg",        
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
     }
 ]

@@ -66,42 +66,53 @@
             border-radius: 5px;
 
             form {
-                position: relative;
-
-                h2{
+                h2 {
                     @include text($mediumText, 500, 2px);
                     color: var(--text-color);
                 }
-                input[type="text"], input[type="email"], textarea {
-                    width: 100%;
-                    padding: 10px 0;
-                    font-size: 18px;
-                    margin: 10px 0;
-                    border: none;
-                    border-bottom: 2px solid var(--bg-color);
-                    outline: none;
-                    background: transparent;
-                    resize: none;
-                }
-                label {
-                    position: absolute;
-                    left: 0;
-                    padding: 5px 0;
-                    margin: 10px 0;
-                    font-size: 16px;
-                    pointer-events: none;
-                    transition: .5s;
-                    color: #8a8a8a;
+
+                .input-form {
+                    position: relative;
+
+                    input[type="text"],
+                    input[type="email"],
+                    textarea {
+                        width: 100%;
+                        padding: 10px 0;
+                        font-size: 18px;
+                        color: var(--text-color);
+                        margin: 10px 0;
+                        border: none;
+                        border-bottom: 2px solid var(--bg-color);
+                        outline: none;
+                        background: transparent;
+                        resize: none;
+                    }
+
+                    label {
+                        position: absolute;
+                        left: 0;
+                        padding: 5px 0;
+                        margin: 10px 0;
+                        font-size: 14px;
+                        pointer-events: none;
+                        transition: .5s;
+                        color: #434343;
+                    }
                 }
 
                 button {
                     width: 100px;
-                        background: var(--primary-color);
-                        color: var(--text-color);
-                        border: none;
-                        cursor: pointer;
-                        padding: 10px;
+                    background: var(--primary-color);
+                    color: var(--text-color);
+                    border: none;
+                    cursor: pointer;
+                    padding: 10px;
                 }
+            }
+
+            .success {
+                color: aqua !important;
             }
         }
     }

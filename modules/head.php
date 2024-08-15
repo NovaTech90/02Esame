@@ -12,8 +12,7 @@
     <title>NovaCODE Portfolio</title>
 
     <style>
-        .errore {color: red;}
-        .success {color: green;}
+        .errore {color: red !important;}
     </style>
 
 </head>
