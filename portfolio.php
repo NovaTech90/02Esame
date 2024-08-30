@@ -23,7 +23,7 @@ include('./modules/head.php');
                                 <div class="overlay">
                                     <h3><?php echo $project['name'] ?></h3>
                                     <p><?php echo $project['description'] ?></p>
-                                    <a href="work.php" class="btn" title="Collegamento alla pagina dettagliata del lavoro">View More</a>
+                                    <a href="<?php echo $project['link'] ?>" class="btn" title="Collegamento alla pagina dettagliata del lavoro">View More</a>
                                 </div>
                             </div>
                         <?php

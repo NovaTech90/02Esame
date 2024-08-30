@@ -11,17 +11,23 @@ include('./modules/head.php');
 
     <section id="work">
         <div class="container container-work">
-            <img src="./img/card.jpg" alt="" class="work-img">
-            <div class="work-text">
-                <h1>Project</h1>
-                <h5>Lorem Ipsum Dolor</h5>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio asperiores quae optio possimus maiores natus
-                    delectus ipsa omnis libero at, consectetur molestias ad vero, obcaecati animi corrupti? Necessitatibus, aut enim,
-                    ab, laudantium obcaecati quas facilis nostrum reprehenderit maxime atque culpa voluptates!
-                </p>
-                <button type="button" class="btn">Let's Talk</button>
-            </div>
+            <?php
+            $json_data = file_get_contents("./files/works.json");
+            $works = json_decode($json_data, true);
+            if (count($works) != 0) {
+                foreach ($works as $work) {
+            ?>
+                    <img src="./img/card.jpg" alt="" class="work-img">
+                    <div class="work-text">
+                        <h1><?php echo $work['title'] ?></h1>
+                        <h5><?php echo $work['subtitle'] ?></h5>
+                        <p><?php echo $work['description'] ?></p>
+                        <button type="button" class="btn"><a href="">Let's Talk</a></button>
+                    </div>
+            <?php
+                }
+            }
+            ?>
         </div>
     </section>
     <?php

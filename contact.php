@@ -125,7 +125,7 @@ include('./modules/head.php');
                     fwrite($file, $messaggio . "\n");
                     fclose($file);
 
-                    echo '<p class="success;" style="color: teal; font-size: 16px; letter-spacing: 1px; font-weight: 600;">Grazie per avermi contattato</p>';
+                    echo '<p class="success;">Thanks for contact me!</p>';
                 }
                 ?>
             </div>
