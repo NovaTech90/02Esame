@@ -1,7 +1,14 @@
 [
     {
         "id" : 1,
-        "title": "Work",
+        "title": "Work1",
+        "subtitle": "Lorem Ipsum Dolor",
+        "image": "./img/card.jpg",        
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
+    },
+    {
+        "id" : 2,
+        "title": "Work2",
         "subtitle": "Lorem Ipsum Dolor",
         "image": "./img/card.jpg",        
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."

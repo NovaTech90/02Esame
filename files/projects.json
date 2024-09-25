@@ -2,43 +2,42 @@
     {
         "id" : 1,
         "name": "Project 1",
-        "image": "./img/card.jpg",        
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde.",
-        "link": "work.php"
+        "image": "./img/card.jpg",      
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
     },
     {
         "id" : 2,
         "name": "Project 2",
         "image": "./img/card.jpg",        
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde.",
-        "link": "#"
+        "url": "#"
     },
     {
         "id" : 3,
         "name": "Project 3",
         "image": "./img/card.jpg",        
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde.",
-        "link": "#"
+        "url": "#"
     },
     {
        "id" : 4,
        "name": "Project 4",
         "image": "./img/card.jpg",        
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde.",
-        "link": "#"
+        "url": "#"
     },
     {
         "id" : 5,
         "name": "Project 5",
         "image": "./img/card.jpg",        
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde.",
-        "link": "#"
+        "url": "#"
     },
     {
         "id" : 6,
         "name": "Project 6",
         "image": "./img/card.jpg",        
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde.",
-        "link": "#"
+        "url": "#"
     }
 ]
