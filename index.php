@@ -15,7 +15,7 @@ include('./modules/head.php');
                 <div class="animatedText">
                     <h1>Front-end Developer</h1>
                 </div>
-                <button type="button" class="btn">HIRE ME</button>
+                <a href="contact.php" class="btn">HIRE ME</a>
             </div>
 
             <div class="sidebar">

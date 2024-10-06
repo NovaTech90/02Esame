@@ -22,7 +22,7 @@ include('./modules/head.php');
                                 <img src="<?php echo $project['image'] ?>" alt="">
                                 <div class="overlay">
                                     <h3><?php echo $project['name'] ?></h3>
-                                    <p><?php echo $project['description'] ?></p>
+                                    <p><?php echo $project['subtitle'] ?></p>
                                     <a href="work.php?id=<?php echo $project['id'] ?>" class="btn" title="Collegamento alla pagina dettagliata del lavoro">View More</a>
                                 </div>
                             </div>

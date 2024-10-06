@@ -1,43 +1,44 @@
 [
     {
-        "id" : 1,
+        "id":1,
         "name": "Project 1",
-        "image": "./img/card.jpg",      
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde."
+        "subtitle": "Subtitle 1",
+        "image": "./img/card.jpg",
+        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful."
     },
     {
-        "id" : 2,
+        "id": 2,
         "name": "Project 2",
-        "image": "./img/card.jpg",        
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde.",
-        "url": "#"
+        "subtitle": "Subtitle 2",
+        "image": "./img/card2.jpg",
+        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful."
     },
     {
-        "id" : 3,
+        "id": 3,
         "name": "Project 3",
-        "image": "./img/card.jpg",        
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde.",
-        "url": "#"
+        "subtitle": "Subtitle 3",
+        "image": "./img/card3.jpg",
+        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful."
     },
     {
-       "id" : 4,
-       "name": "Project 4",
-        "image": "./img/card.jpg",        
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde.",
-        "url": "#"
+        "id": 4,
+        "name": "Project 4",
+        "subtitle": "Subtitle 4",
+        "image": "./img/card4.jpg",
+        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful."
     },
     {
-        "id" : 5,
+        "id": 5,
         "name": "Project 5",
-        "image": "./img/card.jpg",        
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde.",
-        "url": "#"
+        "subtitle": "Subtitle 5",
+        "image": "./img/card5.jpg",
+        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful."
     },
     {
-        "id" : 6,
+        "id": 6,
         "name": "Project 6",
-        "image": "./img/card.jpg",        
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et excepturi esse ipsum harum velit necessitatibus, deleniti quas atque porro ipsa nulla illo at asperiores tenetur unde.",
-        "url": "#"
+        "subtitle": "Subtitle 6",
+        "image": "./img/card6.jpg",
+        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful."
     }
 ]
